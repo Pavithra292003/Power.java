@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class Main{
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    double kilowatt = sc.nextDouble();
+    double horsepower = kilowatt * 1.35962;
+    System.out.printf("%.2f",horsepower);
+  }
+}
